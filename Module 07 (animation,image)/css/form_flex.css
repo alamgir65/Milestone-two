@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(219, 212, 212);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+form input{
+    margin-top: 15px;
+}
